@@ -1,0 +1,66 @@
+﻿Build started 27/06/2015 22:34:49.
+     1>Project "D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\SE1PR11 Coursework Framework\SE1PR11 Coursework Framework.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SE1PR11 Coursework Framework.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Libraries\SDL-1.2.15\include" /I"D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Libraries\SDL_image-1.2.12\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Final Project.cpp" Functions.cpp SDL_Wrapper.cpp
+         SDL_Wrapper.cpp
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\sdl_wrapper.cpp(37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\sdl_wrapper.cpp(35): warning C4101: 'e' : unreferenced local variable
+         Functions.cpp
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(142): warning C4244: 'argument' : conversion from 'double' to 'Uint8', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(165): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : see declaration of '_sleep'
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(169): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(181): warning C4244: 'argument' : conversion from 'float' to 'Uint8', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(186): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(188): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(190): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(337): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(341): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : see declaration of '_sleep'
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(345): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(353): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(356): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(357): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(366): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(367): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(372): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(377): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(378): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(379): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(381): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(382): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(385): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(386): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(388): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(421): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(425): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(911) : see declaration of '_sleep'
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(429): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(437): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(438): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(452): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(491): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(492): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(553): warning C4244: 'argument' : conversion from 'double' to 'Uint8', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(558): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(560): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(562): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Final Project.cpp
+         Generating Code...
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(21): warning C4715: 'RemoveAutosaves' : not all control paths return a value
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(112): warning C4715: 'DetectMenu' : not all control paths return a value
+     1>d:\users\kikadass\documents\uni\visual studio 2013\projects\se1pr11 coursework framework\se1pr11 coursework framework\functions.cpp(694): warning C4715: 'ChangeColor' : not all control paths return a value
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Debug\Final Project.exe" /INCREMENTAL /NOLOGO "D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Libraries\SDL-1.2.15\lib\x86\SDL.lib" "D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Libraries\SDL-1.2.15\lib\x86\SDLmain.lib" "D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Libraries\SDL_image-1.2.12\lib\x86\SDL_image.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Debug\Final Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Debug\Final Project.lib" /MACHINE:X86 Debug\Functions.obj
+         Debug\SDL_Wrapper.obj
+         "Debug\Final Project.obj"
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         SE1PR11 Coursework Framework.vcxproj -> D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\Debug\Final Project.exe
+     1>Done Building Project "D:\Users\Kikadass\Documents\UNI\Visual Studio 2013\Projects\SE1PR11 Coursework Framework\SE1PR11 Coursework Framework\SE1PR11 Coursework Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.83
