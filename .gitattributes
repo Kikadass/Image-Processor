@@ -17,4 +17,4 @@
 *.RTF	 diff=astextplain
 
 * linguist-vendored
-*.java linguist-vendored=false
+*.cpp linguist-vendored=false
